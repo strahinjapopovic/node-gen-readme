@@ -7,7 +7,7 @@ const questions = [
     type: "input",
     name: "title",
     message: "Insert Title: ",
-    default: "Node.js Generator README",
+    default: "Node.js Generate README",
   },
   {
     type: "input",
