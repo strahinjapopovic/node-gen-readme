@@ -62,7 +62,7 @@ It is used for generating professional README file by using Inquirer and NPM uti
 
 ## License
 
-Application is developrd under `GNU GPL v3` license. Please refer to the `GNU GPL v3` license in the repo.
+Application is developrd under `MIT` license. Please refer to the `MIT` license in the repo.
 
 ## Contributing
 
