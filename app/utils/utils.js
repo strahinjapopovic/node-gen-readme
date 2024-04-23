@@ -111,11 +111,9 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(dataAnswer) {
-  return `Application is developrd under \`${dataAnswer.license}\` license. Please refer to the \`${dataAnswer.license}\` license in the repo.`;
+  return `Copyright © 2024, [${dataAnswer.username}](https://github.com/${dataAnswer.username}). Released under the [${dataAnswer.license}](./LICENSE).`
 }
 // TODO: Create a function to generate markdown for README
-const openStr = "```bash";
-const closeStr = "```";
 function markdownGen(dataAnswer) {
   return `# ${dataAnswer.title}
 ${renderLicenseBadge(dataAnswer)}
@@ -124,8 +122,7 @@ ${renderLicenseBadge(dataAnswer)}
 
 ## Table of Content (TOC)
 
-- [${dataAnswer.title}](#title)
-- [TOC](#table)
+- [TOC](#toc)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -140,17 +137,11 @@ ${dataAnswer.description}
 
 ## Installation
 
-${openStr}
 ${dataAnswer.installation}
-${closeStr}
 
 ## Usage
 
 ${dataAnswer.usage}
-
-## License
-
-${renderLicenseSection(dataAnswer)}
 
 ## Contributing
 
@@ -160,10 +151,13 @@ ${dataAnswer.contributing}
 
 ${dataAnswer.test}
 
+## License
+
+${renderLicenseSection(dataAnswer)}
+
 ## Questions
 
-Questions about application can be reffered to author's [GitHub Account](https://github.com/${dataAnswer.username}) or you can contact me directly [Contact Me](mailto:${dataAnswer.email}).
-
+Questions about application can be reffered to the author's [GitHub account](https://github.com/${dataAnswer.username}) or you can [Contact Me](mailto:${dataAnswer.email}) directly over an email.
 `;
 }
 

@@ -45,13 +45,12 @@ Application `node-readme-gen` or Node Generator README application provides a co
 
 ## Installation
 
+### `Node.js` runtime environment `v20.12.2`, Node Package Manager `npm-v10.5.2` and `Inquirer v8.2.4`. Then run following commands.
+
 ```bash
-# ---
-# Install:  Node.js runtime environment v20.12.2, Node Package Manager npm-v10.5.2 and Inquirer v8.2.4. Then run following commands.
-# ---
-$ npm init -y
-$ npm install inquirer@8.2.4
-$ node index.js # after installation application is invoked by this command from Git Bash terminal
+> $ npm init -y
+> $ npm install inquirer@8.2.4
+> $ node index.js # after installation application is invoked by this command from Git Bash terminal
 ```
 
 ## Usage
@@ -64,11 +63,11 @@ Contributors reffer to Question and contact section.
 
 ## Tests
 
-Tests are performed by invoking `$ node index.js` commands but before it should be installed packages under section Installation.
+Tests are performed by invoking `> $ node index.js` commands but before it should be installed packages under section Installation.
 
 ## Demonstration
 
-Demonstration of the application can be visited at [<img src="./app/images/nodejs-ico.png" width="100" alt="GitBash screenshot." />](https://youtu.be/y8kfGvOxd2I)
+Demonstration of the application can be visited at [<img src="./app/images/nodejs-ico.png" width="100" alt="GitBash screenshot." />](https://youtu.be/y8kfGvOxd2I) .
 
 ## License
 

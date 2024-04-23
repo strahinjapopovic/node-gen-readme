@@ -7,7 +7,7 @@ const questions = [
     type: "input",
     name: "title",
     message: "Insert Title: ",
-    default: "Node.js Generate README",
+    default: "Node.js Generator README.md",
   },
   {
     type: "input",
@@ -25,12 +25,12 @@ const questions = [
     type: "input",
     name: "installation",
     message: "Insert Installation instructions: ",
-    default: `# ---
-# Install:  Node.js runtime environment v20.12.2, Node Package Manager npm-v10.5.2 and Inquirer v8.2.4. Then run following commands.
-# ---
-$ npm init -y
-$ npm install inquirer@8.2.4
-$ node index.js # after installation application is invoked by this command from Git Bash terminal`,
+    default: `## Install: \`Node.js\` runtime environment \`v20.12.2\`, Node Package Manager \`npm-v10.5.2\` and \`Inquirer v8.2.4\`. Then run following commands.
+\`\`\`bash
+> $ npm init -y
+> $ npm install inquirer@8.2.4
+> $ node index.js # after installation application is invoked by this command from Git Bash terminal
+\`\`\``,
   },
   {
     type: "input",
@@ -90,7 +90,7 @@ $ node index.js # after installation application is invoked by this command from
     type: "input",
     name: "test",
     message: "Insert Tests Instructions: ",
-    default: "Tests are performed by invoking ` >_ $ node index.js ` commands but before it should be installed packages under section Installation.",
+    default: "Tests are performed by invoking ` > $ node index.js ` commands but before it should be installed packages under section Installation.",
   },
   {
     type: "input",
@@ -112,7 +112,7 @@ const writeReadme = async (file, data) => {
 
 const main = async () => {
   const dataAnswer = await inquirer.prompt(questions);
-  writeReadme("../README.md", markdownGen(dataAnswer));
+  //writeReadme("../README.md", markdownGen(dataAnswer));
   writeReadme("./readme-test/README.md", markdownGen(dataAnswer));
 }
 main();
