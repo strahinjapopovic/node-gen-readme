@@ -1,4 +1,4 @@
-# Node.js Generator README
+# Node.js Generator README.md
 
 # [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -11,12 +11,10 @@
     <a href="https://www.youtube.com/@strahinja-popovic-ch">
     <img alt="Youtube: strahinja-popovic-ch" src="https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=whit&estyle=social" target="_blank" />
     </a>
-</p>
-  
 <p align="left">
     <img src="https://img.shields.io/badge/Javascript-yellow" />
     <img src="https://img.shields.io/badge/node.js-green" />
-    <img src="https://img.shields.io/badge/npm-blue" />
+    <img src="https://img.shields.io/badge/npmv-blue" />
     <img src="https://img.shields.io/badge/inquirer-red" >
     <img src="https://img.shields.io/badge/json-orange" />
 </p>
