@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/github/last-commit/strahinjapopovic/node-gen-readme" >
     <a href="https://twitter.com/stanpopovic"><img alt="Twitter: stanpopovic" src="https://img.shields.io/twitter/follow/stanpopovic.svg?style=social" target="_blank" /></a>
     <a href="https://www.youtube.com/@strahinja-popovic-ch">
-    <img alt="Youtube: strahinja-popovic-ch" src="https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=whit&estyle=social" target="_blank" />
+    <img alt="Youtube: strahinja-popovic-ch" src="https://img.shields.io/badge/YouTube-red?&logo=youtube&logoColor=whit&style=social" target="_blank" />
     </a>
 <p align="left">
     <img src="https://img.shields.io/badge/Javascript-yellow" />
