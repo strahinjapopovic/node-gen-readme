@@ -15,25 +15,25 @@
   
 <p align="left">
     <img src="https://img.shields.io/badge/Javascript-yellow" />
-    <img src="https://img.shields.io/badge/-node.js-green" />
-    <img src="https://img.shields.io/badge/-inquirer-red" >
-    <img src="https://img.shields.io/badge/-json-orange" />
+    <img src="https://img.shields.io/badge/node.js-green" />
+    <img src="https://img.shields.io/badge/npm-blue" />
+    <img src="https://img.shields.io/badge/inquirer-red" >
+    <img src="https://img.shields.io/badge/json-orange" />
 </p>
 
 ## Generator README.md file with `Node.js v20.12.2`, `npm-v10.5.2` and `Inquirer-v8.2.4`
 
 ## Table of Content (TOC)
 
-- [Node.js Generator README](#title)
-- [TOC](#table)
+- [TOC](#toc)
 - [Description](#description)
 - [Repository](#repository)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Demonstration](#demonstration)
+- [License](#license)
 - [Questions](#questions)
 
 ## Description
@@ -60,22 +60,22 @@ $ node index.js # after installation application is invoked by this command from
 
 It is used for generating professional README file by using Inquirer and NPM utilities under Node.js runtime environment.
 
-## License
-
-Application is developrd under `MIT License`. Please refer to the `MIT License` in the repo [LICENSE](./LICENSE).
-
 ## Contributing
 
 Contributors reffer to Question and contact section.
 
 ## Tests
 
-Tests are performed by invoking `>_ $ node index.js` commands but before it should be installed packages under section Installation.
+Tests are performed by invoking `$ node index.js` commands but before it should be installed packages under section Installation.
 
 ## Demonstration
 
 Demonstration of the application can be visited at [<img src="./app/images/nodejs-ico.png" width="100" alt="GitBash screenshot." />](https://youtu.be/y8kfGvOxd2I)
 
+## License
+
+Copyright © 2024, [codeXdeveloper](https://github.com/strahinjapopovic). Released under the [MIT License](./LICENSE).
+
 ## Questions
 
-Questions about application can be reffered to author's [GitHub Account](https://github.com/strahinjapopovic) or you can contact me directly [Contact Me](mailto:spope.mails@gmail.com).
+Questions about application can be reffered to the author's [GitHub account](https://github.com/strahinjapopovic) or you can [Contact Me](mailto:spope.mails@gmail.com) directly over an email.
