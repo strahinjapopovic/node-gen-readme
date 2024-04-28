@@ -1,7 +1,8 @@
 
 # node-gen-readme
 
-## Node.js Generator README.md ![node version](https://img.shields.io/npm/v/node?style=flat&logo=nodedotjs&label=node&labelColor=white&color=red) ![npm version](https://img.shields.io/badge/version-v10.5.1-npm.svg?style=flat&logo=npm&label=npm&labelColor=yellow&color=red) ![nvm version](https://img.shields.io/badge/version-v0.39.7-nvm.svg?style=flat&logo=npm&label=nvm&labelColor=orange&color=red) ![inquirer version](https://img.shields.io/badge/version-v8.2.4-inquirer.svg?style=flat&logo=npm&label=inquirer&labelColor=green&color=red) ![jest version](https://img.shields.io/npm/v/jest?style=flat&logo=jest&logoSize=auto&label=jest&labelColor=purple&color=red) 
+## Node.js Generator README.md 
+![node version](https://img.shields.io/npm/v/node?style=flat&logo=nodedotjs&label=node&labelColor=white&color=red) ![npm version](https://img.shields.io/badge/version-v10.5.1-npm.svg?style=flat&logo=npm&label=npm&labelColor=yellow&color=red) ![nvm version](https://img.shields.io/badge/version-v0.39.7-nvm.svg?style=flat&logo=npm&label=nvm&labelColor=orange&color=red) ![inquirer version](https://img.shields.io/badge/version-v8.2.4-inquirer.svg?style=flat&logo=npm&label=inquirer&labelColor=green&color=red) ![jest version](https://img.shields.io/npm/v/jest?style=flat&logo=jest&logoSize=auto&label=jest&labelColor=purple&color=red) 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-aqua.svg?style=for-the-badge)](https://opensource.org/licenses/MIT) 
 
@@ -51,7 +52,7 @@ Application `node-gen-readme` or Node Generator README application provides a co
 [![GitHub](https://img.shields.io/badge/logo-GitHub-white?logo=github&logoColor=black&style=flat&label=node-gen-readme&labelColor=white&color=red)](https://github.com/strahinjapopovic/node-gen-readme)
 
 ## Git Bash Terminal setting up origin main
-[<img src="./app/screenshots/gitbash-operational-state-dir.PNG" width="1200" alt="GitHub screenshot." />](./app/screenshots/gitbash-operational-state-dir.PNG)
+[<img src="./app/screenshots/gitbash-operational-state-dir-ii.PNG" width="1200" alt="GitHub screenshot." />](./app/screenshots/gitbash-operational-state-dir-ii.PNG)
 
 <a id="installation-process"></a>
 ## Installation Process
