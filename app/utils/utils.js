@@ -1,14 +1,13 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(dataAnswer) {
-  license = dataAnswer.license;
+const Readme = require("../lib/readme-class.js");
+
+function renderLicenseBadge(objReadme) {
+  const license = objReadme.license;
   renderLicenseLink(license);
   return licenseLink;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
+  licenseLink = "";
   switch(license){
     case "Apache 2.0 License": //-------------[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
       licenseLink = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
@@ -17,10 +16,10 @@ function renderLicenseLink(license) {
       licenseLink = `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`;
       break;
     case "BSD 3-Clause License": //-----------[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-      licenseLink = ``;
+      licenseLink = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
       break;
     case "BSD 2-Clause License": //-----------[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
-      licenseLink = `[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)`;
+      licenseLink = `[![License](https://img.shields.io/badge/License-BSD_2--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)`;
       break;
     case "Creative Commons (CC0 1.0)": //-----[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
       licenseLink = `[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)`;
@@ -107,60 +106,63 @@ function renderLicenseLink(license) {
       licenseLink = "";
   }
 }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(dataAnswer) {
-  return `Copyright © 2024, [${dataAnswer.username}](https://github.com/${dataAnswer.username}). Released under the [${dataAnswer.license}](./LICENSE).`
+function renderLicenseSection(objReadme) {
+  return `Copyright © 2024, [${objReadme.username}](https://github.com/${objReadme.username}). Released under the [${objReadme.license}](./LICENSE).`
 }
-// TODO: Create a function to generate markdown for README
 function markdownGen(dataAnswer) {
+  const title = dataAnswer.title; 
+  const subtitle = dataAnswer.subtitle;
+  const description = dataAnswer.description;
+  const installation = dataAnswer.installation;
+  const usage = dataAnswer.usage;
+  const license = dataAnswer.license;
+  const contributing = dataAnswer.contributing;
+  const test = dataAnswer.test;
+  const username = dataAnswer.username;
+  const email = dataAnswer.email;
+  const objReadme = new Readme(title, subtitle, description, installation, usage, license, contributing, test, username, email);
   return `# ${dataAnswer.title}
-${renderLicenseBadge(dataAnswer)}
+${renderLicenseBadge(objReadme)}
 
-## ${dataAnswer.subtitle}
+## ${objReadme.subtitle}
 
 ## Table of Content (TOC)
 
-- [TOC](#toc)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [License](#license)
 - [Questions](#questions)
 
 ## Description
 
-${dataAnswer.description}
+${objReadme.description}
 
 ## Installation
 
-${dataAnswer.installation}
+${objReadme.installation}
 
 ## Usage
 
-${dataAnswer.usage}
+${objReadme.usage}
 
 ## Contributing
 
-${dataAnswer.contributing}
+${objReadme.contributing}
 
 ## Tests
 
-${dataAnswer.test}
+${objReadme.test}
 
 ## License
 
-${renderLicenseSection(dataAnswer)}
+${renderLicenseSection(objReadme)}
 
 ## Questions
 
-Questions about application can be reffered to the author's [GitHub account](https://github.com/${dataAnswer.username}) or you can [Contact Me](mailto:${dataAnswer.email}) directly over an email.
+Questions about application can be reffered to the author's [GitHub account](https://github.com/${objReadme.username}) or you can [Contact Me](mailto:${objReadme.email}) directly over an email.
 `;
 }
-
-module.exports = { 
-  markdownGen,
-}
+module.exports = markdownGen;

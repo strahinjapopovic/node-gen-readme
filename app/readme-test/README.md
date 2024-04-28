@@ -1,30 +1,29 @@
 # Node.js Generator README.md
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Generator README.md file with ` Node.js v20.12.2 `, ` npm-v10.5.2 ` and ` Inquirer-v8.2.4 `
+## Generator README.md file with ` Node.js v22.0.0 `, ` npm-v10.5.2 ` and ` inquirer-v8.2.4 `
 
 ## Table of Content (TOC)
 
-- [TOC](#toc)
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
 - [Contributing](#contributing)
 - [Tests](#tests)
+- [License](#license)
 - [Questions](#questions)
 
 ## Description
 
-Application `node-readme-gen` or Node Generator README application provides a comperhensive README.md file as a resulting output to help developers to create comperhensive README files more quickly then before. It is developed by using ` Node.js v20.12.2 ` as JavaScript runtime environment, ` Node Package Manager npm-v10.5.2 ` an public registry or library interface and `Inquirer v8.2.4` an question-answer handler. Application can be invoked from ` ~/app> ` directory by using bash terminal command ` > $ node index.js `.
+Application `node-readme-gen` or Node Generator README application provides a comperhensive README.md file as a resulting output to help developers to create comperhensive README files more quickly then before. It is developed by using ` Node.js v22.0.0 ` as JavaScript runtime environment, ` Node Package Manager npm-v10.5.2 ` an public registry or library interface and `inquirer-v8.2.4` an question-answer handler. Application can be invoked from ` ~/app> ` directory by using bash terminal command ` >_ $ node index.js `.
 
 ## Installation
 
-## Install: `Node.js` runtime environment `v20.12.2`, Node Package Manager `npm-v10.5.2` and `Inquirer v8.2.4`. Then run following commands.
+## Install: `Node.js` runtime environment `node.js-v22.0.0`, Node Package Manager `npm-v10.5.2` and `inquirer-v8.2.4`. Then run following commands.
 ```bash
-> $ npm init -y
-> $ npm install inquirer@8.2.4
-> $ node index.js # after installation application is invoked by this command from Git Bash terminal
+npm init -y
+npm install inquirer@v8.2.4
+node index.js # after installation application is invoked by this command
 ```
 
 ## Usage
@@ -37,7 +36,7 @@ Contributors reffer to Question and contact section.
 
 ## Tests
 
-Tests are performed by invoking ` > $ node index.js ` commands but before it should be installed packages under section Installation.
+Tests are performed by invoking ` >_ $ node index.js ` commands but before it should be installed packages under section Installation.
 
 ## License
 
