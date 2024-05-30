@@ -52,7 +52,7 @@ Application `node-gen-readme` or Node Generator README application provides a co
 [![GitHub](https://img.shields.io/badge/logo-GitHub-white?logo=github&logoColor=black&style=flat&label=node-gen-readme&labelColor=white&color=red)](https://github.com/strahinjapopovic/node-gen-readme)
 
 ## Git Bash Terminal setting up origin main
-[<img src="./app/screenshots/gitbash-operational-state-dir-ii.PNG" width="1200" alt="GitHub screenshot." />](./app/screenshots/gitbash-operational-state-dir-ii.PNG)
+[<img src="./app/screenshots/gitbash-operational-state-dir.PNG" width="1200" alt="Git Bash Terminal screenshot." />](./app/screenshots/gitbash-operational-state-dir.PNG)
 
 <a id="installation-process"></a>
 ## Installation Process
@@ -189,9 +189,11 @@ Command npm run test will use `~/app/param.js` file in which we have a class and
 [<img src="./app/screenshots/gitbash-jest-test-output-passed-ii.PNG" width="1200" alt="Git Bash screenshot." />](./app/screenshots/gitbash-jest-test-output-passed-ii.PNG)
 
 <a id="demonstration-on-youtube"></a>
-## Demonstration on <a href="https://youtu.be/y8kfGvOxd2I" style="background-color: white; color: darkRed; font-weight: bold; border-radius: 5px; text-decoration: none;">&nbsp;YouTube&nbsp;</a>
+## Demonstration on [YouTube](https://youtu.be/y8kfGvOxd2I)
 
-Demonstration of the application can be visited at [<img src="./app/images/nodejs-ico.png" width="100" alt="GitBash screenshot." />](https://youtu.be/y8kfGvOxd2I).
+Demonstration of the application can be visited below.
+
+[<img src="./app/images/nodejs-ico.png" width="400" alt="Node.js image as thumbnail for YouTube demo video." />](https://youtu.be/y8kfGvOxd2I)
 
 ## License
 
